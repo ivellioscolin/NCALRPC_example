@@ -1,0 +1,14 @@
+# Intermediate and output files
+bin/
+obj/
+
+# VS database
+.vs/
+NCALRPC_example.VC.db
+NCALRPC_example.VC.VC.opendb
+
+# MIDL output
+MIDL/IDLOut
+
+# Migration user file
+*.vcxproj.user

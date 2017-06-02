@@ -1,0 +1,13 @@
+[
+    uuid(c6a2b2c7-d81e-461a-b563-6138bf245ac0),
+    version(1.0),
+    pointer_default(unique)
+]
+
+interface NCALRPCInterface
+{
+    import "NCALRPCPacket.h";
+    uint32_t RPCSend([in] handle_t hnd, [in, ref] PNCALRPC_PACKET_1 pData);
+    uint32_t RPCGet([in] handle_t hnd, [out, ref] PNCALRPC_PACKET_2 pData);
+    void Shutdown([in] handle_t hnd);
+}
