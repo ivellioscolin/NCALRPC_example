@@ -1,4 +1,4 @@
 interface NCALRPCInterface
 {
-
+    include "NCALRPCPacket.h";
 }

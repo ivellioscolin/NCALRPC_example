@@ -246,10 +246,14 @@ xcopy $(ProjectDir)IDLSrc\NCALRPCPacket.h $(ProjectDir)IDLOut /Y /D</Command>
       <ClientStubFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)_c.c</ClientStubFile>
       <ClientStubFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)_c.c</ClientStubFile>
       <ClientStubFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)_c.c</ClientStubFile>
-      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ApplicationConfigurationMode>
-      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ApplicationConfigurationMode>
-      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ApplicationConfigurationMode>
-      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ApplicationConfigurationMode>
+      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ApplicationConfigurationMode>
+      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ApplicationConfigurationMode>
+      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ApplicationConfigurationMode>
+      <ApplicationConfigurationMode Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ApplicationConfigurationMode>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/acf NCALRPCInterface.acf %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">/acf NCALRPCInterface.acf %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/acf NCALRPCInterface.acf %(AdditionalOptions)</AdditionalOptions>
